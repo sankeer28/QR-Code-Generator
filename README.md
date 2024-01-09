@@ -1,6 +1,6 @@
-# QR Code Generator
+# [QR Code Generator](https://sankeer28.github.io/QR-Code-Generator/)
 
-This is a simple web-based QR code generator. It allows users to input any text or URL and generates a QR code based on the input. The generated QR code is displayed on the page and can be used to encode the input data in a format that can be easily scanned with a QR code reader.
+This is a simple web-based QR code generator. It allows users to input any text or URL and generates a QR code based on the input. The generated QR code is displayed on the page and can be used to encode the input data in a format that can be easily scanned with a QR code reader. Uses the [goQR.me API](https://goqr.me/api/).
 
 ## How to Use
 
