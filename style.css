@@ -59,12 +59,12 @@ body {
     cursor: pointer;
     margin: 20px 0;
     font-weight:500;
-    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; /* Add this line */
+    transition: background 0.3s ease-in-out, transform 0.3s ease-in-out; 
 }
 
 .container button:hover {
-    background: #c96387; /* Change to the color you want when hovered */
-    transform: scale(1.05); /* Add this line to slightly increase the size of the button when hovered */
+    background: #c96387; 
+    transform: scale(1.05); 
 }
 
 @keyframes slide {
@@ -85,7 +85,7 @@ body {
     border-radius: 5px;
     max-height:0;
     overflow: hidden;
-    transition: max-height 2s ease-in-out; /* Added ease-in-out */
+    transition: max-height 2s ease-in-out; 
     
 }
 
@@ -162,3 +162,10 @@ h1 {
         transform: translateX(0);
     }
 }
+
+
+@media screen and (max-width: 600px) {
+    .title {
+      font-size: 18px;
+    }
+  }
