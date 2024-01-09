@@ -4,22 +4,24 @@
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
     <title> QR Code Generator</title>
     <link rel="stylesheet" href="style.css">
-
 </head>
 <body>
     <div class="navbar">
         <a href="https://github.com/sankeer28/QR-Code-Generator" target="_blank" class="github-button">GitHub</a>
     </div>
-    <h1>QR Code Generator</h1>
-    <div class="container">
-        <p>
-            Enter text or URL
-        </p>
-        <input type="text" placeholder="Text or URL" id="qrText">
-        <div id="imgBox">
-            <img src="" id="qrImage">
+    <div class="parent">
+        
+        <div class="container">
+            <h1>QR Code Generator</h1>
+            <p>
+                Enter text or URL
+            </p>
+            <input type="text" placeholder="Text or URL" id="qrText">
+            <div id="imgBox">
+                <img src="" id="qrImage">
+            </div>
+            <button onclick="generateQR()">Generate QR Code</button>
         </div>
-        <button onclick="generateQR()">Generate QR Code</button>
     </div>
 
 <script>
